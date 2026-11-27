@@ -1,35 +1,19 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="es">
 <head>
-<title>Jiu Fit IALA</title>
+<title>+120 Ejercicios de Movilidad en Video | Gustavo Maron</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<!-- UTMify: cole o script aqui -->
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '345445044480602');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=345445044480602&ev=PageView&noscript=1"></noscript>
-<!-- End Meta Pixel Code -->
+<meta name="robots" content="noindex, follow">
+<!-- Pixel de Meta: pega aquí -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://i.ytimg.com">
-<link rel="preconnect" href="https://www.youtube.com">
-<link rel="preconnect" href="https://www.youtube-nocookie.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" media="print" onload="this.media=\'all\'">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap"></noscript>
 <style>
 img{height:auto}
-/* Layout: mesmo formato da página validada de manuais (fundo claro, coluna estreita, serifa nos títulos, seções escuras na oferta), com o vermelho IALA no lugar do roxo. */
+/* Layout: mesmo formato da página validada de manuais (fundo claro, coluna estreita, serifa nos títulos, seções escuras na oferta), com o vermelho no lugar do roxo. */
 :root{
   --ink:#1d1416; --text:#3d3335; --mute:#7c7072;
   --bg:#ffffff; --tint:#fbf2f2; --tint2:#f7e6e6;
@@ -66,7 +50,7 @@ p{margin:0}
 /* hero */
 .hero{text-align:center;padding-block:40px 48px;background:linear-gradient(180deg,var(--tint),#fff)}
 .hero .lead{font-size:15px;margin-top:12px}
-.vsl{position:relative;display:block;max-width:620px;margin:26px auto 0;aspect-ratio:16/9;border-radius:14px;overflow:hidden;background:#000;box-shadow:0 18px 40px rgba(29,20,22,.18)}
+.vsl{position:relative;display:block;max-width:620px;margin:26px auto 0;aspect-ratio:16/9;border-radius:14px;overflow:hidden;background:#000;box-shadow:0 18px 40px rgba(29,20,22,.18);cursor:pointer;text-decoration:none}
 .vsl img{width:100%;height:100%;object-fit:cover;object-position:50% 25%}
 .vsl iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .play{position:absolute;inset:0;display:grid;place-items:center}
@@ -226,7 +210,7 @@ footer p{margin-top:8px}
   .obox{padding:22px 16px}
   .btn{width:100%}
 }
-/* ===== Identidade IALA: preto e vermelho, títulos fortes ===== */
+/* ===== Identidade: preto e vermelho, títulos fortes ===== */
 :root{
   --ink:#ffffff; --text:#d9d1d1; --mute:#a39797;
   --bg:#0a0a0a; --tint:#121010; --card:#171313; --line:#2a2222;
@@ -304,7 +288,7 @@ footer{border-top:1px solid var(--line)}
 .igc-body{flex:1;min-width:0}
 .igav{flex:none;width:38px;height:38px;border-radius:50%;display:grid;place-items:center;color:#fff;font-weight:800;font-size:13px;box-shadow:0 0 0 2px #fff,0 0 0 4px #e1306c}
 .igav.sm{width:28px;height:28px;font-size:10px}
-.igav.iala{background:#111;box-shadow:0 0 0 2px #fff,0 0 0 3.5px #e3121b}
+.igav.brand{background:#111;box-shadow:0 0 0 2px #fff,0 0 0 3.5px #e3121b}
 .igc p{margin:0;font-size:13.5px;line-height:1.45}
 .igc b{color:#111;font-weight:700}
 .igc .h{color:#8e8e8e;font-size:12.5px}
@@ -316,164 +300,295 @@ footer{border-top:1px solid var(--line)}
 .igrep .ver{display:inline-grid;place-items:center;width:13px;height:13px;border-radius:50%;background:#3897f0;color:#fff;font-size:8px;vertical-align:1px}
 @media (max-width:640px){.igfeed{columns:1}}
 .vsl .snd{position:absolute;left:50%;bottom:14px;transform:translateX(-50%);z-index:4;background:rgba(0,0,0,.8);color:#fff;font-weight:800;font-size:13px;padding:8px 14px;border-radius:999px;white-space:nowrap;pointer-events:none}
+
+/* mockup do material (provisório até gerar a imagem) */
+.kmock{position:relative;max-width:520px;margin:26px auto 0;height:300px}
+.kbook{position:absolute;width:170px;aspect-ratio:3/4;border-radius:10px;background:linear-gradient(160deg,#e3121b,#5a0609);box-shadow:10px 12px 0 #2a0507,0 24px 50px rgba(0,0,0,.6);display:grid;place-items:center;text-align:center;color:#fff;font-family:var(--serif);font-weight:800;line-height:1;padding:14px}
+.kbook small{display:block;font-family:var(--sans);font-size:10px;font-weight:800;letter-spacing:2px;opacity:.85;margin-bottom:6px}
+.kbook b{font-size:40px;display:block}
+.kbook span{font-size:15px}
+.kb1{left:50%;top:10px;transform:translateX(-50%) rotate(-3deg);z-index:3;width:190px}
+.kb2 span,.kb3 span{font-size:12px}
+.kb2,.kb3{width:150px;padding:10px}
+.kb2{left:6%;top:40px;transform:rotate(-10deg);background:linear-gradient(160deg,#1c1012,#000);border:1px solid #3a2a2a}
+.kb3{right:6%;top:40px;transform:rotate(9deg);background:linear-gradient(160deg,#1c1012,#000);border:1px solid #3a2a2a}
+.mock-note{font-size:11px;color:var(--mute);margin-top:8px}
+.kmock-img{max-width:640px;margin:22px auto 0}
+.kmock-img img{display:block;width:100%;height:auto;filter:drop-shadow(0 20px 30px rgba(22,24,29,.18))}
+/* dinâmica de exemplo */
+.dyn{max-width:560px;margin:28px auto 0;background:#fff;color:#1d1416;border-radius:16px;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,.45)}
+.dyn-h{background:var(--accent);color:#fff;padding:16px 20px;display:flex;justify-content:space-between;gap:12px;align-items:center}
+.dyn-h b{font-family:var(--serif);font-size:20px;font-weight:800}
+.dyn-h span{font-size:11px;font-weight:800;letter-spacing:1px;background:rgba(0,0,0,.25);padding:4px 8px;border-radius:6px;white-space:nowrap}
+.dyn-tags{display:flex;flex-wrap:wrap;gap:6px;padding:14px 20px 0}
+.dyn-tags i{font-style:normal;font-size:12px;font-weight:700;background:#f5eeee;border-radius:999px;padding:4px 10px}
+.dyn-b{padding:12px 20px 20px;display:grid;gap:12px;font-size:13.5px;line-height:1.5}
+.dyn-b h4{margin:0 0 4px;font-family:var(--serif);font-size:14px;font-weight:800;color:var(--accent);text-transform:uppercase;letter-spacing:.5px}
+.dyn-b ol{margin:0;padding-left:18px;display:grid;gap:4px}
+.dyn-b p{margin:0}
+.dyn-safe{background:#fff6e8;border-left:3px solid #f0a33a;padding:10px 12px;border-radius:8px}
+/* categorias */
+.cats{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:28px}
+.cat{display:flex;gap:12px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0}
+.cat .n{flex:none;width:46px;height:46px;border-radius:10px;background:var(--accent-soft);color:var(--accent);display:grid;place-items:center;font-family:var(--serif);font-weight:800;font-size:18px}
+.cat b{display:block;color:var(--ink);font-size:14.5px}
+.cat span{font-size:12.5px;color:var(--mute)}
+.ages{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:18px}
+.ages span{background:var(--accent);color:#fff;font-weight:800;font-size:12.5px;padding:6px 14px;border-radius:999px}
+.bump-note{margin-top:12px;border:1.5px dashed var(--gold);border-radius:12px;padding:12px 14px;font-size:12.5px;color:var(--text);background:var(--gold-bg)}
+.bump-note b{color:var(--ink)}
+@media (max-width:640px){.cats{grid-template-columns:1fr}.kmock{height:250px}.kbook{width:130px}.kb1{width:150px}.kbook b{font-size:30px}}
+
+
+/* o que você vai receber: interativo */
+.rc-top{display:flex;align-items:center;gap:18px;max-width:620px;margin:26px auto 0}
+.rc-count{display:flex;align-items:center;gap:10px;flex:none}
+.rc-count b{font-family:var(--serif);font-weight:800;font-size:46px;line-height:1;color:var(--accent)}
+.rc-count span{font-size:12.5px;font-weight:700;color:var(--ink);line-height:1.3}
+.rc-bar{flex:1;display:flex;gap:4px;height:14px;min-width:0}
+.rc-bar span{border-radius:4px;background:#f3d0d0;transition:background .2s,transform .2s}
+.rc-bar span.on{background:var(--accent);transform:scaleY(1.35)}
+.rc-grid{display:grid;grid-template-columns:1fr;gap:10px;max-width:620px;margin:22px auto 0;align-items:start}
+.rc{background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(22,24,29,.06);transition:border-color .2s,box-shadow .2s,transform .2s;padding:0}
+.rc:hover{transform:translateY(-2px);box-shadow:0 12px 26px rgba(22,24,29,.1)}
+.rc[open]{border-color:var(--accent);box-shadow:0 14px 30px rgba(227,18,27,.14)}
+.rc summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:12px;padding:14px 14px}
+.rc summary::-webkit-details-marker{display:none}
+.rc summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:14px}
+.rc-ic{flex:none;width:42px;height:42px;border-radius:12px;background:var(--accent-soft);display:grid;place-items:center;font-size:20px}
+.rc-t{flex:1;min-width:0}
+.rc-t b{display:block;font-size:14px;color:var(--ink);line-height:1.3}
+.rc-t small{display:block;font-size:12px;color:var(--mute);margin-top:2px}
+.rc-n{flex:none;font-family:var(--serif);font-weight:800;font-size:15px;color:#fff;background:var(--accent);border-radius:999px;min-width:34px;height:28px;display:grid;place-items:center;padding:0 8px}
+.rc-body{padding:0 16px 14px 68px}
+.rc-k{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:1px;color:var(--accent);margin:0 0 6px}
+.rc-body ul{list-style:none;padding:0;margin:0;display:grid;gap:5px}
+.rc-body li{font-size:13px;font-weight:600;color:var(--ink);display:flex;gap:8px;align-items:center}
+.rc-body li::before{content:"▸";color:var(--accent)}
+.rc-age{font-size:12px;color:var(--mute);margin:8px 0 0}
+.rc-strip{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;max-width:680px;margin:18px auto 0}
+.rc-strip span{background:var(--tint);border:1px solid var(--line);border-radius:999px;padding:7px 12px;font-size:12.5px;font-weight:700;color:var(--ink)}
+@media (prefers-reduced-motion:reduce){.rc,.rc-bar span{transition:none}.rc:hover{transform:none}}
+@media (max-width:640px){.rc-grid{grid-template-columns:1fr}.rc-top{flex-direction:column;align-items:stretch;gap:10px}.rc-count{justify-content:center}.rc-body{padding-left:16px}}
+
+/* bônus com mockups */
+.bk-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}
+.bk{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 8px 22px rgba(22,24,29,.07);display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s;min-width:0}
+.bk:hover{transform:translateY(-3px);box-shadow:0 16px 34px rgba(22,24,29,.12)}
+.bk-img{background:#fff;aspect-ratio:1/1;display:grid;place-items:center;border-bottom:1px solid var(--line)}
+.bk-img{padding:8px}.bk-img img{width:100%;height:100%;object-fit:contain;display:block;filter:drop-shadow(0 10px 14px rgba(22,24,29,.16))}
+.bk-b{padding:16px 16px 18px;display:flex;flex-direction:column;gap:8px;align-items:flex-start;flex:1}
+.bk-n{background:var(--accent);color:#fff;font-size:11px;font-weight:800;letter-spacing:.5px;padding:3px 10px;border-radius:999px}
+.bk-b h3{font-size:17px;margin:0;text-align:left}
+.bk-b p{font-size:13px;color:var(--mute);margin:0;flex:1}
+.bk-v{font-size:12.5px;font-weight:700;color:var(--ink);background:var(--accent-soft);padding:5px 12px;border-radius:999px}
+.bk-v s{color:var(--accent)}
+.bk-v b{color:#177a3f}
+@media (prefers-reduced-motion:reduce){.bk{transition:none}.bk:hover{transform:none}}
+@media (max-width:820px){.bk-grid{grid-template-columns:1fr;max-width:420px;margin-inline:auto}}
+
+/* mockup flutuando na oferta */
+.oright{min-width:0}
+#oferta .olay{align-items:center}
+.ofloat{margin:-6px auto 6px;max-width:400px}
+.ofloat img{display:block;width:100%;height:auto;filter:drop-shadow(0 18px 22px rgba(22,24,29,.22));animation:flt 4s ease-in-out infinite}
+@keyframes flt{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+@media (prefers-reduced-motion:reduce){.ofloat img{animation:none}}
+/* ===== Tema claro: branco e vermelho ===== */
+:root{--ink:#16181d;--text:#3d434f;--mute:#6b7280;--bg:#ffffff;--tint:#f6f7f9;--card:#ffffff;--line:#e6e8ed;--dark:#16181d;--accent:#e3121b;--accent-soft:#fdecec;--gold:#b8892b;--gold-bg:#fff8ea;color-scheme:light}
+body{background:var(--bg);color:var(--text)}
+.hero{background:linear-gradient(180deg,#fff5f5 0%,#fff 70%)}
+.card,.ben,.cat,.post,.gcard,details,.pays span{background:#fff;border:1px solid var(--line);box-shadow:0 6px 18px rgba(22,24,29,.06)}
+.cat .n{background:var(--accent-soft);color:var(--accent)}
+.darksec{background:linear-gradient(180deg,#fff5f5,#fdeaea);border-block:1px solid #f6d6d6}
+.obox{background:#fff;border:1.5px solid var(--accent);box-shadow:0 24px 60px rgba(227,18,27,.12)}
+.obox h2,.olist h4,.olist li{color:var(--ink)}
+.pbox{background:linear-gradient(180deg,#fff,#fff6f6);border-color:var(--accent)}
+.p-old{color:var(--accent)}
+.p-save{background:#e7f6ec;color:#177a3f}
+.bump-note{background:var(--gold-bg);color:var(--text)}
+.total .t2{color:var(--ink)}
+.dyn{border:1px solid var(--line);box-shadow:0 18px 40px rgba(22,24,29,.1)}
+.kb2,.kb3{background:#fff;border:1px solid var(--line);color:var(--accent);box-shadow:8px 10px 0 #f3d4d4,0 18px 40px rgba(22,24,29,.15)}
+.kb1{box-shadow:10px 12px 0 #a50f16,0 24px 50px rgba(227,18,27,.3)}
+.seal div{background:#fff;color:#8f6418;border-color:#e3b04b}
+.about img{border:1px solid var(--line);box-shadow:0 14px 34px rgba(22,24,29,.15)}
+.band{background:var(--accent)}
+.fbtn{background:var(--accent-soft);color:var(--ink)}
+footer{background:#16181d;color:#b6bac3;border-top:0}
+
+/* capas provisórias (até gerar os mockups novos) */
+.cover-tmp{width:100%;height:100%;display:grid;place-items:center;text-align:center;font-family:var(--serif);font-weight:800;color:#fff;line-height:1;padding:18px;background:linear-gradient(160deg,#e3121b,#8f0c12)}
+.cover-tmp small{display:block;font-family:var(--sans);font-size:11px;letter-spacing:2px;opacity:.85;margin-bottom:8px}
+.cover-tmp b{font-size:30px;display:block}
+.cover-tmp.alt{background:linear-gradient(160deg,#16181d,#3a3f4a)}
+.kmock{margin-bottom:6px}
+.ofloat .kmock{height:230px;margin-top:0}
+.ofloat .kb2,.ofloat .kb3{display:none}.ofloat .kmock{height:220px}.ofloat .kb1{width:150px;top:6px}.ofloat .kbook b{font-size:34px}.ofloat .kbook span{font-size:13px}
+.paylogos{display:block;width:100%;max-width:360px;height:auto;margin:12px auto 0;border-radius:10px}
+.p-local{margin:8px auto 0;font-size:12px;color:var(--mute)}
+.p-local[hidden]{display:none}
+.p-local b{color:#1fae5b;font-weight:800;font-size:13px;white-space:nowrap}
+.estr{max-width:560px;margin:22px auto 0;display:grid;grid-template-columns:repeat(3,1fr);gap:10px;counter-reset:e}
+.estr div{position:relative;background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 8px 14px;text-align:center;box-shadow:0 4px 14px rgba(22,24,29,.05)}
+.estr div:before{counter-increment:e;content:counter(e);position:absolute;top:8px;left:10px;font:800 11px/1 var(--sans);color:var(--accent);opacity:.55}
+.estr i{display:grid;place-items:center;width:46px;height:46px;margin:0 auto 8px;border-radius:50%;background:#fdecec;font-style:normal;font-size:22px}
+.estr b{display:block;font-size:13px;line-height:1.25;color:var(--ink)}
+.est-f{text-align:center;margin-top:14px;font-size:13px;font-weight:700;color:var(--accent)}
+
+.about{max-width:620px;margin:0 auto}.about img{max-width:240px;margin:0 auto}
+.fit{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:22px}
+.fit-c{background:#fafafb;border-radius:16px;padding:20px 20px 14px;border:1.5px solid var(--line,#e7e8ec)}
+.fit-c.yes{border-color:#9fd8b4}.fit-c.no{border-color:#f2b4b6}
+.fit-c h3{font-size:18px;margin:0 0 10px}
+.fit-c ul{list-style:none;padding:0;margin:0}
+.fit-c li{padding:8px 0;border-bottom:1px solid #f0f1f4;font-size:15px;font-weight:600;color:var(--ink,#16181d)}
+.fit-c li:last-child{border-bottom:0}
+@media (max-width:640px){.fit{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 
 
-<div class="offerbar">🔥 Oferta especial Jiu Fit · Bônus exclusivos por tempo limitado</div>
+<div class="offerbar">🎥 +120 videos en HD · Del campeón panamericano IBJJF Gustavo Maron</div>
 
 <!-- HERO -->
 <header class="hero">
   <div class="wrap">
-    <h1>Chegue ao Fim do Rola com Gás, <em>Treinando em Casa</em></h1>
-    <p class="lead">Seu problema não é técnica, é condicionamento. O Jiu Fit é o treino HIIT que o Gustavo Maron, faixa-preta e campeão Pan, criou para evoluir fora do tatame. Sem kimono, sem parceiro e sem academia.</p>
-    <div class="vsl"><iframe src="https://www.youtube.com/embed/XHQr5MqHmDU?rel=0&amp;playsinline=1" title="Jiu Fit: veja como funciona" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-    <p class="spark">✨ <b>14 aulas guiadas</b>, você só precisa de um colchonete.</p>
+    <h1>+120 Ejercicios de Movilidad <em>en Video</em> para Jiu-Jiteros</h1>
+    <p class="lead">Mira el movimiento, dale play y repite. Más cadera para la guardia, hombros libres y menos lesiones, con los ejercicios de Gustavo Maron, campeón panamericano IBJJF.</p>
+    <div class="kmock-img"><img src="img/mockup-videos.webp" width="1000" height="1000" fetchpriority="high" decoding="async" alt="Biblioteca de +120 videos de ejercicios de movilidad en TV, tablet y celular"></div>
+    <p class="spark">🎥 <b>Videos cortos en loop</b>: sin idioma, solo mira y repite.</p>
   </div>
 </header>
 
-<!-- O QUE VOCÊ VAI RECEBER -->
+<!-- DOLOR -->
 <section class="tint">
   <div class="wrap">
-    <h2>O Que Você Vai Receber</h2>
-    <p class="lead">2 módulos completos, com aulas e treinos guiados para fazer hoje mesmo.</p>
-    <div class="cards">
-      <div class="card"><div class="ico">📘</div><div class="lbl">Módulo 1</div><h3>4 Aulas Teóricas</h3><p>Entenda o que o corpo precisa para render no jiu-jitsu.</p></div>
-      <div class="card"><div class="ico">🔥</div><div class="lbl">Módulo 1</div><h3>4 Treinos Guiados</h3><p>HIIT com cronômetro e instrução em cada exercício.</p></div>
-      <div class="card"><div class="ico">🧠</div><div class="lbl">Módulo 2</div><h3>3 Aulas Teóricas</h3><p>Aprofunde condicionamento, mobilidade e recuperação.</p></div>
-      <div class="card"><div class="ico">⚡</div><div class="lbl">Módulo 2</div><h3>3 Treinos Novos</h3><p>Nova dinâmica para continuar evoluindo sem estagnar.</p></div>
-      <div class="card"><div class="ico">🏠</div><div class="lbl">Onde quiser</div><h3>Só um Colchonete</h3><p>Sem kimono, sem parceiro e sem espaço grande.</p></div>
-      <div class="card feat"><div class="pill">♾️ Para sempre</div><div class="ico">📱</div><div class="lbl">Acesso</div><h3>Vitalício no Celular</h3><p>Refaça os treinos quantas vezes quiser.</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- COMO FUNCIONA -->
-<section>
-  <div class="wrap">
-    <h2>Como Funciona na Prática</h2>
-    <p class="lead">Assim que você garante sua vaga, recebe acesso imediato à plataforma com:</p>
-    <div class="how">
-      <div class="how-c">
-        <div class="mod"><h3>📚 Módulo 1</h3><ul><li>4 aulas teóricas com explicações diretas e aplicáveis</li><li>4 treinos guiados com foco em preparo técnico e físico</li></ul></div>
-        <div class="mod"><h3>📚 Módulo 2</h3><ul><li>3 aulas teóricas com aprofundamento estratégico</li><li>3 treinos com nova dinâmica e aplicação no jogo real</li></ul></div>
-        <div class="mod"><h3>🏠 Pode ser feito no espaço da sua casa</h3><p>Só precisa de um celular. E disposição.</p></div>
-      </div>
-      <div class="how-img"><img src="img/1.webp" width="580" height="615" loading="lazy" decoding="async" alt="Treinos guiados do Jiu Fit com cronômetro na tela"></div>
-    </div>
-  </div>
-</section>
-
-<!-- MOMENTOS -->
-<section class="tint" style="padding-bottom:0">
-  <div class="wrap moments">
-    <h3>Para cada fase do seu jiu-jitsu</h3>
-    <div class="minis">
-      <div class="mini"><span>🔄</span>Voltar depois de parado</div>
-      <div class="mini"><span>🫁</span>Parar de cansar no rola</div>
-      <div class="mini"><span>⏰</span>Treinar com agenda cheia</div>
-      <div class="mini"><span>🏆</span>Chegar inteiro no campeonato</div>
-      <div class="mini"><span>✈️</span>Não parar nas viagens</div>
-      <div class="mini"><span>🤍</span>Faixa branca começando</div>
-      <div class="mini"><span>💙</span>Faixa azul evoluindo</div>
-      <div class="mini"><span>💜</span>Faixa roxa ganhando ritmo</div>
-      <div class="mini"><span>🧘</span>Soltar o quadril</div>
-      <div class="mini"><span>💪</span>Ganhar explosão</div>
-    </div>
-    <div class="incl">
-      <h3>Além disso, cada treino trabalha:</h3>
-      <ul class="ck">
-        <li>Condicionamento para o rola inteiro</li>
-        <li>Explosão para raspar e escapar</li>
-        <li>Força funcional de pegada e base</li>
-        <li>Reflexo e agilidade</li>
-        <li>Mobilidade para a guarda</li>
-        <li>Fundamentos com repetição guiada</li>
-        <li>Energia e confiança física e mental</li>
-        <li>Constância em menos de 1 hora</li>
-      </ul>
-    </div>
-  </div>
-  <div class="band">Treino 100% em casa, sem kimono e sem parceiro.</div>
-</section>
-
-<!-- BENEFÍCIOS -->
-<section class="tint">
-  <div class="wrap">
-    <h2>Por Que o Jiu Fit Faz Diferença?</h2>
-    <p class="lead">Só treinar mais horas no tatame não resolve. Quem evolui prepara o corpo fora dele.</p>
+    <h2>¿Tu Cuerpo No Acompaña Tu Jiu-Jitsu?</h2>
+    <p class="lead">Sabes la posición, pero la cadera no abre, el hombro duele y la guardia se cae.</p>
     <div class="bens">
-      <div class="ben"><div class="ben-h"><span>⏳</span><h3>Cabe na Sua Rotina</h3></div><p>Treinos com menos de 1 hora, no horário que você tiver.</p></div>
-      <div class="ben"><div class="ben-h"><span>🫁</span><h3>Mais Gás no Rola</h3></div><p>Chegue ao fim da luta ainda com força para finalizar.</p></div>
-      <div class="ben"><div class="ben-h"><span>🧍</span><h3>Autonomia Total</h3></div><p>Sem academia e sem depender de parceiro de treino.</p></div>
-      <div class="ben"><div class="ben-h"><span>⚡</span><h3>Reflexo e Agilidade</h3></div><p>Reaja mais rápido para raspar, passar e escapar.</p></div>
-      <div class="ben"><div class="ben-h"><span>🥋</span><h3>Feito Para o Tatame</h3></div><p>Não é treino genérico de academia. É condicionamento para jiu-jitsu.</p></div>
-      <div class="ben"><div class="ben-h"><span>♾️</span><h3>Acesso Vitalício</h3></div><p>Pagamento único. Refaça os treinos quantas vezes quiser.</p></div>
-    </div>
-    <div class="ideal">
-      <h3>Ideal Para Todo Praticante:</h3>
-      <ul>
-        <li>Quem cansa rápido no rola</li>
-        <li>Quem ficou parado e quer voltar</li>
-        <li>Quem treina pouco por falta de tempo</li>
-        <li>Quem quer evoluir sem academia</li>
-      </ul>
+      <div class="ben"><div class="ben-h"><span>🧱</span><h3>Cadera trabada</h3></div><p>Te pasan la guardia porque la cadera no gira ni abre a tiempo.</p></div>
+      <div class="ben"><div class="ben-h"><span>🤕</span><h3>Dolores que no se van</h3></div><p>Rodilla, hombro, espalda baja: cada entreno termina con alguna molestia.</p></div>
+      <div class="ben"><div class="ben-h"><span>🐢</span><h3>Movimientos duros</h3></div><p>Las transiciones salen lentas y forzadas, y gastas el doble de energía.</p></div>
+      <div class="ben"><div class="ben-h"><span>📺</span><h3>Videos sueltos en internet</h3></div><p>Ves un ejercicio aquí y otro allá, sin orden ni rutina.</p></div>
     </div>
   </div>
 </section>
 
-<!-- COMENTÁRIOS -->
+<!-- QUÉ VAS A RECIBIR -->
 <section>
   <div class="wrap">
-    <h2>Quem Já Treina Com a Família IALA</h2>
-    <p class="lead">Feedbacks reais de quem já treina com o Jiu Fit.</p>
-    <div class="igfeed">
-      <div class="igc">
-        <div class="igc-row"><div class="igav" style="background:#c13584">A</div><div class="igc-body">
-          <p><b>Aluno do Jiu Fit</b> <span class="h">via WhatsApp</span></p>
-          <p class="t">Depois de algumas semanas praticando nos meus dias de "descanso", fui treinar e <b>ficaram perguntando o que eu tinha "tomado"</b>, o que aconteceu comigo 😂 Bem legal pra usar de estrutura também pra preparar outros treinos.</p>
-          <div class="m"><span>16 mai</span><span>Responder</span></div>
-          <div class="igrep"><div class="igav sm iala">IA</div><div><p><b>jiujitsufamiliaiala</b> <span class="ver">✓</span></p><p class="t">Que legal saber disso! Quando eu falo pras minhas amigas que nunca canso nos rolas por causa do Jiu Fit, ninguém acredita 😂😂</p><div class="m"><span>Responder</span></div></div></div>
-        </div><svg class="hrt" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.5-9.2C1 7.9 3.2 4.5 6.6 4.5c2 0 3.5 1.1 4.4 2.6.9-1.5 2.4-2.6 4.4-2.6 3.4 0 5.6 3.4 4.1 6.8-2 4.6-9.5 9.2-9.5 9.2z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></div>
-      </div>
-      <div class="igc">
-        <div class="igc-row"><div class="igav" style="background:#e1306c">A</div><div class="igc-body">
-          <p><b>Aluna do Jiu Fit</b> <span class="h">via WhatsApp</span></p>
-          <p class="t">Que curso maravilhoso! <b>Logo no comecinho já me impressionei com a facilidade</b> que seu filho explica os exercícios, e como é fácil aprender com ele explicando.</p>
-          <div class="m"><span>Responder</span></div>
-        </div><svg class="hrt" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.5-9.2C1 7.9 3.2 4.5 6.6 4.5c2 0 3.5 1.1 4.4 2.6.9-1.5 2.4-2.6 4.4-2.6 3.4 0 5.6 3.4 4.1 6.8-2 4.6-9.5 9.2-9.5 9.2z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></div>
-      </div>
-      <div class="igc">
-        <div class="igc-row"><div class="igav" style="background:#833ab4">M</div><div class="igc-body">
-          <p><b>moisessantana7342</b> <span class="h">via YouTube</span></p>
-          <p class="t">O curso de vocês <b>melhorou muito minha agilidade no tatame</b>, pessoal até elogiou, e olha que treino somente há uma semana. Infelizmente só poderei voltar aos tatames ano que vem, mas vou aproveitar esse tempo para treinar mais os solo drills que vocês passam. Eu recomendo muito o curso.</p>
-          <div class="m"><span>há 2 horas</span><span>Responder</span></div>
-        </div><svg class="hrt" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.5-9.2C1 7.9 3.2 4.5 6.6 4.5c2 0 3.5 1.1 4.4 2.6.9-1.5 2.4-2.6 4.4-2.6 3.4 0 5.6 3.4 4.1 6.8-2 4.6-9.5 9.2-9.5 9.2z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></div>
-      </div>
-      <div class="igc">
-        <div class="igc-row"><div class="igav" style="background:#3b5bdb">LC</div><div class="igc-body">
-          <p><b>Luís Eduardo Melo de Castro</b> <span class="h">aluno</span></p>
-          <p class="t">Parabéns pelo conteúdo! Muito útil. Recomendo. Estou me recuperando de uma lesão que não me permite ainda voltar aos tatames, mas <b>só a primeira aula, três vezes por semana, já está me permitindo manter um bom condicionamento</b> específico para o jiu-jitsu.</p>
-          <div class="m"><span>2 meses</span><span>Responder</span></div>
-        </div><svg class="hrt" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-9.5-9.2C1 7.9 3.2 4.5 6.6 4.5c2 0 3.5 1.1 4.4 2.6.9-1.5 2.4-2.6 4.4-2.6 3.4 0 5.6 3.4 4.1 6.8-2 4.6-9.5 9.2-9.5 9.2z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></div>
-      </div>
+    <h2>Lo Que Vas a Recibir</h2>
+    <p class="lead">+120 videos organizados por zona del cuerpo. Toca cada categoría para ver ejemplos.</p>
+    <div class="rc-top">
+      <div class="rc-count"><b>+120</b><span>videos<br>en 6 categorías</span></div>
+      <div class="rc-bar" aria-hidden="true"><span data-i="0" style="flex:25"></span><span data-i="1" style="flex:20"></span><span data-i="2" style="flex:20"></span><span data-i="3" style="flex:15"></span><span data-i="4" style="flex:20"></span><span data-i="5" style="flex:20"></span></div>
+    </div>
+    <div class="rc-grid">
+      <details class="rc" data-i="0" open>
+        <summary><span class="rc-ic">🌀</span><span class="rc-t"><b>Cadera para la guardia</b><small>Más giro, apertura y retención de guardia</small></span><span class="rc-n">25</span></summary>
+        <div class="rc-body"><p class="rc-k">Ejemplos de videos</p><ul><li>Rotación de cadera</li><li>Apertura 90/90</li><li>Escape de cadera lateral</li></ul><p class="rc-age">🎥 Videos en HD, en loop</p></div>
+      </details>
+      <details class="rc" data-i="1">
+        <summary><span class="rc-ic">💪</span><span class="rc-t"><b>Hombros y agarres</b><small>Hombros libres y agarres que duran</small></span><span class="rc-n">20</span></summary>
+        <div class="rc-body"><p class="rc-k">Ejemplos de videos</p><ul><li>Movilidad de hombros</li><li>Rotación externa</li><li>Fuerza de agarre</li></ul><p class="rc-age">🎥 Videos en HD, en loop</p></div>
+      </details>
+      <details class="rc" data-i="2">
+        <summary><span class="rc-ic">🧍</span><span class="rc-t"><b>Columna y postura</b><small>Postura fuerte en la guardia y en la base</small></span><span class="rc-n">20</span></summary>
+        <div class="rc-body"><p class="rc-k">Ejemplos de videos</p><ul><li>Movilidad torácica</li><li>Puente y rodamiento</li><li>Postura en la guardia</li></ul><p class="rc-age">🎥 Videos en HD, en loop</p></div>
+      </details>
+      <details class="rc" data-i="3">
+        <summary><span class="rc-ic">🦶</span><span class="rc-t"><b>Tobillos y base</b><small>Base firme para pasar y derribar</small></span><span class="rc-n">15</span></summary>
+        <div class="rc-body"><p class="rc-k">Ejemplos de videos</p><ul><li>Movilidad de tobillo</li><li>Base activa</li><li>Levantada técnica</li></ul><p class="rc-age">🎥 Videos en HD, en loop</p></div>
+      </details>
+      <details class="rc" data-i="4">
+        <summary><span class="rc-ic">🔥</span><span class="rc-t"><b>Calentamiento y flujo</b><small>Prepara el cuerpo antes de rodar</small></span><span class="rc-n">20</span></summary>
+        <div class="rc-body"><p class="rc-k">Ejemplos de videos</p><ul><li>Flujo de 5 minutos</li><li>Activación de cadera</li><li>Transiciones suaves</li></ul><p class="rc-age">🎥 Videos en HD, en loop</p></div>
+      </details>
+      <details class="rc" data-i="5">
+        <summary><span class="rc-ic">⚡</span><span class="rc-t"><b>Acondicionamiento</b><small>Movilidad con cardio específico</small></span><span class="rc-n">20</span></summary>
+        <div class="rc-body"><p class="rc-k">Ejemplos de videos</p><ul><li>Sprawl y vuelta</li><li>Camarón en serie</li><li>Burpee de luchador</li></ul><p class="rc-age">🎥 Videos en HD, en loop</p></div>
+      </details>
+    </div>
+    <div class="rc-strip">
+      <span>🎥 Videos en HD</span><span>📱 En el celular o la TV</span><span>🌎 Sin idioma</span><span>♾️ Acceso de por vida</span>
     </div>
   </div>
 </section>
+<script>
+(function(){
+  var bar=document.querySelectorAll('.rc-bar span'),cards=document.querySelectorAll('.rc');
+  function hi(i){bar.forEach(function(s){s.classList.toggle('on',s.dataset.i==i)});}
+  cards.forEach(function(c){
+    c.addEventListener('mouseenter',function(){hi(c.dataset.i)});
+    c.addEventListener('toggle',function(){if(c.open){hi(c.dataset.i);cards.forEach(function(o){if(o!==c)o.open=false})}});
+  });
+  document.querySelector('.rc-grid').addEventListener('mouseleave',function(){var o=document.querySelector('.rc[open]');hi(o?o.dataset.i:-1)});
+  hi(0);
+})();
+</script>
 
-<!-- BÔNUS -->
+<!-- CÓMO ES CADA EJERCICIO -->
 <section class="tint">
   <div class="wrap">
-    <h2>Leve Muito Mais que o Jiu Fit</h2>
-    <p class="lead">Hoje você também recebe 2 bônus para acelerar sua evolução.</p>
-    <div class="bonus">
-      <div class="bcard"><div class="bimg"><img src="img/2.webp" width="700" height="700" loading="lazy" decoding="async" alt="Capa do bônus Pegada de Costas"></div><div class="bnum">BÔNUS #1</div><h3>🥋 Pegada de Costas</h3><p>Pegue as costas do jeito certo, mantenha o controle e finalize sem perder a posição.</p><div class="val">Valor: <s>R$47,00</s> <b>GRÁTIS</b></div></div>
-      <div class="bcard"><div class="bimg"><img src="img/3.webp" width="700" height="700" loading="lazy" decoding="async" alt="Bônus Protocolo Alimentar do Lutador, da nutricionista Ana Braga"></div><div class="bnum">BÔNUS #2</div><h3>🥗 Protocolo Alimentar do Lutador</h3><p>O guia da nutricionista e atleta de jiu-jitsu Ana Braga: o que comer antes do treino, como recuperar depois do rola e um cardápio prático para a semana inteira.</p><div class="val">Valor: <s>R$97,00</s> <b>GRÁTIS</b></div></div>
+    <h2>Así Funciona Cada Video</h2>
+    <div class="estr"><div><i>▶️</i><b>Dale play</b></div><div><i>🔁</i><b>Se repite en loop</b></div><div><i>👀</i><b>Mira la ejecución</b></div><div><i>🏠</i><b>Repite en casa</b></div><div><i>📂</i><b>Organizado por zona</b></div><div><i>📋</i><b>Rutinas listas</b></div></div>
+    <p class="est-f">⏱️ Videos cortos y directos · 🌎 Sin necesidad de entender ningún idioma</p>
+  </div>
+</section>
+
+<!-- PARA QUIÉN ES -->
+<section>
+  <div class="wrap">
+    <h2>¿Es Para Ti?</h2>
+    <div class="fit">
+      <div class="fit-c yes">
+        <h3>✅ Es para ti si…</h3>
+        <ul>
+          <li>Entrenas jiu-jitsu, de blanco a negro</li>
+          <li>Te pasan la guardia porque la cadera no acompaña</li>
+          <li>Terminas los entrenos con molestias en hombro, rodilla o espalda</li>
+          <li>Entrenas después de los 30 y quieres rodar por muchos años</li>
+          <li>Quieres una rutina corta y lista para hacer en casa</li>
+        </ul>
+      </div>
+      <div class="fit-c no">
+        <h3>❌ No es para ti si…</h3>
+        <ul>
+          <li>Buscas aprender técnicas, finalizaciones o pasajes de guardia</li>
+          <li>Esperas resultados sin practicar los ejercicios</li>
+          <li>Tienes una lesión aguda y necesitas tratamiento con un profesional</li>
+          <li>No tienes 10 minutos al día para entrenar</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="band">Más cadera, hombros libres, menos lesiones.</div>
+</section>
+
+<!-- BONOS -->
+<section>
+  <div class="wrap">
+    <h2>Llévate También 3 Bonos Exclusivos</h2>
+    <p class="lead">Comprando hoy, recibes materiales extra para acelerar tu evolución.</p>
+    <div class="bk-grid">
+      <div class="bk">
+        <div class="bk-img"><img src="img/bono-rutinas.webp" width="700" height="700" loading="lazy" decoding="async" alt="Bono 30 Rutinas Listas"></div>
+        <div class="bk-b"><span class="bk-n">BONO #1</span><h3>📋 30 Rutinas Listas</h3><p>Combina los videos en rutinas de 10 a 15 minutos: sabes exactamente qué hacer cada día.</p><div class="bk-v">Valor: <s>US$12</s> <b>GRATIS</b></div></div>
+      </div>
+      <div class="bk">
+        <div class="bk-img"><img src="img/bono-espalda.webp" width="700" height="700" loading="lazy" decoding="async" alt="Bono Control de Espalda de Gustavo Maron"></div>
+        <div class="bk-b"><span class="bk-n">BONO #2</span><h3>🥋 Control de Espalda</h3><p>Toma la espalda, mantén el control y busca la sumisión, con el sistema de Gustavo.</p><div class="bk-v">Valor: <s>US$9</s> <b>GRATIS</b></div></div>
+      </div>
+      <div class="bk">
+        <div class="bk-img"><img src="img/bono-nutricion.webp" width="700" height="700" loading="lazy" decoding="async" alt="Bono Nutrición con Ana Braga"></div>
+        <div class="bk-b"><span class="bk-n">BONO #3</span><h3>🥗 Nutrición con Ana Braga</h3><p>Qué comer antes de entrenar, cómo recuperarte y un menú práctico semanal.</p><div class="bk-v">Valor: <s>US$9</s> <b>GRATIS</b></div></div>
+      </div>
     </div>
     <div class="total">
-      <div class="t1">Valor total dos bônus: <s>R$144,00</s></div>
-      <div class="t2">Tudo incluído hoje sem custo adicional.</div>
+      <div class="t1">Videos <s>US$47</s> + 3 bonos <s>US$30</s> = <s>US$77</s></div>
+      <div class="t2">Todo incluido hoy, con acceso de por vida y sin costo adicional.</div>
     </div>
   </div>
 </section>
@@ -482,134 +597,123 @@ footer{border-top:1px solid var(--line)}
 <section class="darksec" id="oferta">
   <div class="wrap">
     <div class="obox">
-      <div class="obadge"><span>🔥 Oferta Especial por Tempo Limitado</span></div>
-      <h2>Jiu Fit Completo + 2 Bônus</h2>
+      <div class="obadge"><span>🔥 Precio de lanzamiento</span></div>
+      <h2>+120 Ejercicios de Movilidad en Video + 3 Bonos</h2>
       <div class="olay">
         <div class="olist">
-          <h4>🥋 Seu pacote completo inclui:</h4>
+          <h4>🥋 Todo lo que recibes:</h4>
           <ul>
-            <li>2 módulos com 14 aulas</li>
-            <li>7 treinos HIIT guiados com cronômetro</li>
-            <li>7 aulas teóricas</li>
-            <li>Sem kimono, sem parceiro</li>
-            <li>Os 2 bônus (valor de R$144)</li>
-            <li>Acesso imediato no seu e-mail</li>
-            <li>Acesso vitalício</li>
-            <li>Garantia de 7 dias</li>
+            <li>+120 videos de movilidad en HD</li>
+            <li>6 categorías por zona del cuerpo</li>
+            <li>Videos en loop, sin idioma</li>
+            <li>30 Rutinas Listas</li>
+            <li>Control de Espalda</li>
+            <li>Nutrición con Ana Braga</li>
+            <li>Acceso inmediato y de por vida</li>
+            <li>Garantía de 7 días</li>
           </ul>
         </div>
-        <div>
-          <div class="oimg"><img src="img/4.webp" width="380" height="270" loading="lazy" decoding="async" alt="Jiu Fit em notebook, tablet e celular"></div>
+        <div class="oright">
+          <div class="ofloat"><img src="img/mockup-videos.webp" width="1000" height="1000" loading="lazy" decoding="async" alt="+120 Ejercicios de Movilidad en Video"></div>
           <div class="pbox">
-            <div class="p-old">De R$197,90</div>
-            <div class="p-tag">Hoje por só</div>
-            <div class="p-main">R$97,00</div>
-            <div class="p-type">ou 12x de R$10,03</div>
-            <div class="p-save">🎉 Você economiza R$100,90</div>
-            <a class="btn pulse" href="https://pay.hotmart.com/T108594888H?checkoutMode=10">Quero meu acesso agora</a>
-            <div class="trust">🔒 Pagamento seguro · ⚡ Acesso imediato</div>
-            <div class="pays"><span>hotmart</span><span>PIX</span><span>Visa</span><span>Master</span><span>Elo</span><span>Boleto</span></div>
+            <div class="p-old">Valor total US$77</div>
+            <div class="p-tag">Hoy por solo</div>
+            <div class="p-main">US$12</div>
+            <div class="p-type">Pago único</div>
+            <div class="p-save">🎉 Ahorras US$65</div>
+            <a class="btn pulse" href="LINK_DEL_CHECKOUT">Quiero mi acceso ahora</a>
+            <div class="p-local" id="pLocal">Aproximadamente en tu moneda: <b id="pLocalV"></b></div>
+            <div class="trust">🔒 Pago seguro · ⚡ Acceso inmediato</div>
+            <img class="paylogos" src="img/pagamentos.webp" width="887" height="211" loading="lazy" decoding="async" alt="Métodos de pago: Hotmart, Mastercard, Visa, American Express, PayPal, Apple Pay, Google Pay, OXXO y más">
           </div>
         </div>
       </div>
-      <p class="ofoot">Menos que uma mensalidade de academia para treinar o que mais faz falta no seu jiu-jitsu.</p>
+      <p class="ofoot">Menos que una mensualidad de academia por una biblioteca de movilidad para toda la vida.</p>
     </div>
   </div>
 </section>
 
-<!-- GARANTIA -->
+<!-- GARANTÍA -->
 <section class="tint">
   <div class="wrap">
-    <div class="seal"><div><span>Garantia<b>7</b>dias</span></div></div>
-    <h2>Sua Satisfação é Nossa Prioridade</h2>
-    <div class="gsub">🛡️ Garantia Oficial de 7 Dias</div>
+    <div class="seal"><div><span>Garantía<b>7</b>días</span></div></div>
+    <h2>Tu Riesgo es Cero</h2>
+    <div class="gsub">🛡️ Garantía incondicional de 7 días</div>
     <div class="gcard">
-      <p>Você pode fazer os treinos do Jiu Fit e ver os 2 bônus com total tranquilidade.</p>
-      <p>Confiamos tanto no método que oferecemos uma garantia incondicional de 7 dias.</p>
-      <p>Se por qualquer motivo sentir que não é para você, é só pedir o reembolso dentro do prazo e recebe <strong>100% do seu dinheiro de volta</strong>, sem complicação.</p>
-      <p class="last">Você não corre nenhum risco. O compromisso é nosso.</p>
+      <p>Mira los videos y entrena con tranquilidad.</p>
+      <p>Si en 7 días sientes que los videos no son para ti, por cualquier motivo, solo pide el reembolso y recibes <strong>el 100% de tu dinero de vuelta</strong>.</p>
+      <p class="last">El compromiso es nuestro.</p>
     </div>
-    <div class="gbtn"><a class="btn alt" href="#oferta">Quero começar meus treinos 🥋</a></div>
+    <div class="gbtn"><a class="btn alt" href="LINK_DEL_CHECKOUT">Quiero mis videos 🎥</a></div>
   </div>
 </section>
 
-<!-- SOBRE -->
+<!-- AUTORIDAD -->
 <section>
-  <div class="wrap about">
-    <div class="about-c">
-      <span class="tag">🥋 Quem somos</span>
-      <h2>Família IALA</h2>
-      <p class="sub">Gustavo Maron e Magda, mãe e filho faixas-pretas, ajudando praticantes a evoluir mesmo sem ir ao tatame todo dia.</p>
-      <ul>
-        <li>Gustavo: faixa-preta 2º grau e campeão Pan IBJJF</li>
-        <li>Mais de 10 anos dando aula de jiu-jitsu</li>
-        <li>112 mil pessoas acompanham a família no Instagram</li>
-      </ul>
-      <p class="txt">O Gustavo criou o Jiu Fit depois de ver a rotina afastar ele do tatame. Em vez de aceitar a estagnação, transformou minutos livres em treino. Hoje mais de 1.000 praticantes usam o método.</p>
-    </div>
-    <img src="img/5.webp" width="250" height="400" loading="lazy" decoding="async" alt="Gustavo Maron com medalhas de campeonatos IBJJF">
-  </div>
-</section>
-
-<!-- CTA FINAL -->
-<section class="darksec final">
   <div class="wrap">
-    <h2>Comece Hoje a Treinar o Que Falta no Seu Jiu-Jitsu</h2>
-    <p class="lead">Jiu Fit + 2 Bônus Exclusivos</p>
-    <div class="obox" style="margin-top:22px">
-      <div class="olay">
-        <div class="olist">
-          <ul>
-            <li>2 módulos com 14 aulas</li>
-            <li>Explosão, resistência e força funcional</li>
-            <li>Pegada de Costas e Protocolo Alimentar do Lutador</li>
-            <li>Acesso imediato após a confirmação</li>
-            <li>Garantia de satisfação de 7 dias</li>
-            <li>Compra 100% segura</li>
-          </ul>
-        </div>
-        <div class="pbox">
-          <div class="p-old">De R$197,90</div>
-          <div class="p-tag">Por só</div>
-          <div class="p-main">R$97,00</div>
-          <div class="p-type">ou 12x de R$10,03</div>
-          <a class="btn pulse" href="https://pay.hotmart.com/T108594888H?checkoutMode=10">Quero meu acesso agora</a>
-          <div class="trust">Pagamento único · Acesso imediato · Acesso vitalício</div>
-        </div>
+    <div class="about">
+      <div class="about-c">
+        <h2 style="text-align:center">Creado por un Campeón Brasileño</h2>
+        <p class="sub" style="text-align:center">Gustavo Maron · cinturón negro y licenciado en Deportes (USP)</p>
+        <ul>
+          <li>Campeón Panamericano IBJJF</li>
+          <li>Medallista Mundial en azul, morado y marrón</li>
+          <li>Campeón Brasileño sin kimono y Campeón Sudamericano</li>
+          <li>Atleta profesional desde los 16 años</li>
+        </ul>
       </div>
-      <div class="urg">
-        <h4>⏰ CONDIÇÃO ESPECIAL POR TEMPO LIMITADO</h4>
-        <p>O preço normal do Jiu Fit é R$197,90. Aproveite enquanto a condição de R$97 com os 2 bônus estiver no ar.</p>
-      </div>
+      <img src="img/gustavo-maron.webp" width="250" height="400" loading="lazy" decoding="async" alt="Gustavo Maron con sus medallas IBJJF">
     </div>
   </div>
 </section>
 
 <!-- FAQ -->
-<section>
+<section class="tint">
   <div class="wrap">
-    <h2>❓ Perguntas Frequentes</h2>
+    <h2>❓ Preguntas Frecuentes</h2>
     <div class="faq">
-      <details><summary>Como recebo o acesso depois da compra?</summary><p>Assim que o pagamento for confirmado, você recebe um e-mail com o acesso à área de membros, com as aulas e os bônus.</p><a class="fbtn" href="#oferta">👉 Quero receber meu acesso agora</a></details>
-      <details><summary>Preciso de kimono ou parceiro?</summary><p>Não. Os treinos são feitos sozinho e sem kimono.</p><a class="fbtn" href="#oferta">👉 Quero treinar em casa</a></details>
-      <details><summary>Preciso de espaço grande?</summary><p>Não. Basta um canto da casa e um colchonete.</p><a class="fbtn" href="#oferta">👉 Quero meu acesso</a></details>
-      <details><summary>E se eu não estiver treinando agora?</summary><p>O Jiu Fit serve justamente para preparar o corpo antes de voltar ao tatame.</p><a class="fbtn" href="#oferta">👉 Quero voltar a treinar</a></details>
-      <details><summary>Tenho limitações físicas ou estou acima do peso. Funciona?</summary><p>Os treinos respeitam diferentes níveis. Antes de começar, consulte um profissional de saúde.</p><a class="fbtn" href="#oferta">👉 Quero começar no meu ritmo</a></details>
-      <details><summary>Por quanto tempo terei acesso?</summary><p>O acesso é vitalício. Você pode refazer os treinos quantas vezes quiser.</p><a class="fbtn" href="#oferta">👉 Quero acesso vitalício</a></details>
-      <details><summary>E se eu não gostar?</summary><p>Você tem 7 dias de garantia. Pede o reembolso e recebe o valor integral.</p><a class="fbtn" href="#oferta">👉 Quero testar sem risco</a></details>
+      <details><summary>¿Son videos o PDF?</summary><p>Son más de 120 videos cortos en HD que se repiten en loop, organizados por zona del cuerpo. Además recibes un PDF con 30 rutinas listas.</p><a class="fbtn" href="LINK_DEL_CHECKOUT">👉 Quiero mis videos</a></details>
+      <details><summary>¿Los videos tienen audio en otro idioma?</summary><p>Los videos de ejecución no dependen del idioma: muestran el movimiento en loop para que mires y repitas.</p><a class="fbtn" href="LINK_DEL_CHECKOUT">👉 Quiero mi acceso</a></details>
+      <details><summary>¿Cómo recibo el acceso?</summary><p>Apenas se confirma el pago, recibes el acceso en tu correo y puedes ver los videos en el celular, la tablet, la computadora o la TV.</p><a class="fbtn" href="LINK_DEL_CHECKOUT">👉 Quiero mi acceso</a></details>
+      <details><summary>¿Necesito equipos o compañero?</summary><p>No. Solo tu cuerpo y un espacio pequeño. Una colchoneta ayuda, pero no es obligatoria.</p><a class="fbtn" href="LINK_DEL_CHECKOUT">👉 Quiero empezar</a></details>
+      <details><summary>¿Sirve si soy principiante?</summary><p>Sí. Los ejercicios son para todos los niveles y las rutinas listas te dicen por dónde empezar.</p><a class="fbtn" href="LINK_DEL_CHECKOUT">👉 Quiero empezar</a></details>
+      <details><summary>¿En qué moneda pago?</summary><p>El precio es US$12 y el checkout te muestra el valor en tu moneda local. Puedes pagar con tarjeta y otros métodos disponibles en tu país.</p><a class="fbtn" href="LINK_DEL_CHECKOUT">👉 Quiero mi acceso</a></details>
+      <details><summary>¿Es un pago único?</summary><p>Sí. Pagas una vez y tienes acceso de por vida, sin mensualidades.</p><a class="fbtn" href="LINK_DEL_CHECKOUT">👉 Quiero acceso de por vida</a></details>
+      <details><summary>¿Y si no me gusta?</summary><p>Tienes 7 días de garantía. Pides el reembolso y recibes el valor completo.</p><a class="fbtn" href="LINK_DEL_CHECKOUT">👉 Quiero probar sin riesgo</a></details>
     </div>
   </div>
 </section>
 
 <footer>
   <div class="wrap">
-    <div class="fb">Família IALA 🥋</div>
-    <p>@jiujitsufamiliaiala · Política de privacidade · Termos de uso</p>
-    <p>🛡️ Site 100% seguro</p>
-    <p>Os resultados podem variar de pessoa para pessoa. Consulte um profissional de saúde antes de iniciar qualquer atividade física.</p>
+    <div class="fb">+120 Ejercicios de Movilidad en Video · Gustavo Maron 🥋</div>
+    <p>Política de privacidad · Términos de uso</p>
+    <p>🛡️ Sitio 100% seguro</p>
+    <p>Respeta tus límites. Si tienes alguna lesión, consulta a un profesional de la salud antes de empezar.</p>
   </div>
 </footer>
 
+<script>
+/* precio aproximado en la moneda local del visitante */
+(function(){
+  var USD=12,el=document.getElementById('pLocal'),out=document.getElementById('pLocalV');if(!el)return;
+  var C={MX:['MXN',18.5],CO:['COP',4000],AR:['ARS',1400],CL:['CLP',940],PE:['PEN',3.6],BO:['BOB',6.96],UY:['UYU',40],PY:['PYG',7500],GT:['GTQ',7.7],CR:['CRC',505],DO:['DOP',62],HN:['HNL',26],NI:['NIO',36.7],ES:['EUR',0.88],BR:['BRL',5.6],VE:['USD',1],EC:['USD',1],PA:['USD',1],SV:['USD',1],PR:['USD',1],US:['USD',1]};
+  var TZ={'Mexico':'MX','Mexico_City':'MX','Cancun':'MX','Monterrey':'MX','Merida':'MX','Matamoros':'MX','Chihuahua':'MX','Hermosillo':'MX','Mazatlan':'MX','Tijuana':'MX','Bahia_Banderas':'MX','Ojinaga':'MX','Bogota':'CO','Buenos_Aires':'AR','Cordoba':'AR','Mendoza':'AR','Salta':'AR','Jujuy':'AR','Tucuman':'AR','Catamarca':'AR','La_Rioja':'AR','San_Juan':'AR','San_Luis':'AR','Rio_Gallegos':'AR','Ushuaia':'AR','Santiago':'CL','Punta_Arenas':'CL','Lima':'PE','La_Paz':'BO','Montevideo':'UY','Asuncion':'PY','Guatemala':'GT','Costa_Rica':'CR','Santo_Domingo':'DO','Tegucigalpa':'HN','Managua':'NI','Madrid':'ES','Canary':'ES','Caracas':'VE','Sao_Paulo':'BR','Bahia':'BR','Fortaleza':'BR','Recife':'BR','Belem':'BR','Manaus':'BR','Cuiaba':'BR','Campo_Grande':'BR','Porto_Velho':'BR','Boa_Vista':'BR','Rio_Branco':'BR','Maceio':'BR','Araguaina':'BR','Santarem':'BR','Noronha':'BR','New_York':'US','Chicago':'US','Denver':'US','Los_Angeles':'US','Phoenix':'US','Guayaquil':'EC','Panama':'PA','El_Salvador':'SV','Puerto_Rico':'PR'};
+  var cc=null;
+  try{var z=Intl.DateTimeFormat().resolvedOptions().timeZone||'';var k=z.split('/').pop();if(TZ[k])cc=TZ[k];}catch(e){}
+  if(!cc){var m=(navigator.language||'').match(/-([A-Z]{2})$/i);if(m)cc=m[1].toUpperCase();}
+  if(!cc||!C[cc])cc='US';
+  var cur=C[cc][0];
+  function show(rate){
+    var v=USD*rate,dig=v>=1000?0:2;
+    var r=dig?v:Math.round(v);
+    var txt;try{txt=new Intl.NumberFormat(cur==='EUR'?'es-ES':'es-419',{style:'currency',currency:cur,currencyDisplay:'narrowSymbol',maximumFractionDigits:dig,minimumFractionDigits:dig}).format(r);}catch(e){txt=r.toFixed(dig)+' '+cur;}
+    if(cur==='USD')txt='US$12';out.textContent=(cur==='EUR'||txt.indexOf(cur)>=0||cur==='USD')?txt+(cur==='USD'?' USD':''):txt+' '+cur;el.hidden=false;
+  }
+  show(C[cc][1]);
+  try{fetch('https://open.er-api.com/v6/latest/USD').then(function(r){return r.json()}).then(function(d){if(cur!=='USD'&&d&&d.rates&&d.rates[cur])show(d.rates[cur]);}).catch(function(){});}catch(e){}
+})();
+</script>
 
 </body>
 </html>
